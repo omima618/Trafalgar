@@ -1,0 +1,157 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 78%;
+    }
+}
+@media (max-width: 1199px) {
+    h1 {
+        font-size: 3.7rem;
+    }
+    .hero,
+    .services,
+    .services .cards-wrapper,
+    .testimonials,
+    .blogs,
+    .blogs .container {
+        background-image: unset;
+    }
+    .container,
+    .testimonials .container {
+        width: 90%;
+    }
+    .cards-wrapper .card.no-margin {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 992px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    .services .heading {
+        width: 100%;
+    }
+    .leading .heading h2::after,
+    .download-app .heading h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero .hero-wrapper,
+    .download-app .wrapper,
+    .feedback-wrapper figure {
+        flex-direction: column;
+    }
+    .leading .wrapper {
+        flex-direction: column-reverse;
+    }
+    .download-app .text-wrapper .heading h2 {
+        margin: 0 auto 30px;
+    }
+    .hero-wrapper .hero-text,
+    .leading .wrapper .text-wrapper,
+    .download-app .wrapper .text-wrapper {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .hero-wrapper .hero-text button,
+    .leading .wrapper .text-wrapper button,
+    .download-app .wrapper .text-wrapper button {
+        margin: 0 auto;
+    }
+    .testimonials .container {
+        padding: 30px 60px;
+    }
+    .testimonials .heading {
+        margin-bottom: 30px;
+    }
+    .feedback-wrapper figure img {
+        margin-bottom: 10px;
+        width: 90px;
+        height: 90px;
+    }
+}
+@media (max-width: 786px) {
+    section {
+        margin-bottom: 10rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    nav i {
+        display: inline;
+    }
+    nav ul {
+        display: none !important;
+    }
+    .heading {
+        text-align: center;
+    }
+    .heading h2 {
+        font-size: 2.5rem;
+    }
+    .services .cards-wrapper,
+    .blogs .blogs-wrapper {
+        margin: 0 auto 30px;
+    }
+    .services .card figure h3 {
+        font-size: 1.7rem;
+    }
+    .services .card figure img {
+        width: 40px;
+        height: 60px;
+    }
+    .hero-wrapper .hero-text,
+    .leading .wrapper .text-wrapper,
+    .download-app .wrapper .text-wrapper,
+    .hero-wrapper .hero-img img,
+    .leading .wrapper > img,
+    .download-app .wrapper > img {
+        width: 100%;
+    }
+    .services .cards-wrapper .card,
+    .blogs .blogs-wrapper .blog {
+        width: 80%;
+        height: fit-content;
+    }
+    .testimonials .container {
+        padding: 30px;
+    }
+    .testimonials .feedback-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .testimonials .feedback-wrapper figure {
+        margin-bottom: 30px;
+    }
+    .testimonials .feedback-wrapper .feedback {
+        width: 100%;
+    }
+    .pagination ul {
+        margin: 0 50px;
+    }
+    .pagination img {
+        width: 18px;
+    }
+    .blogs .blogs-wrapper {
+        justify-content: center;
+    }
+    footer {
+        padding: 50px 0;
+    }
+    footer .content-wrapper {
+        flex-wrap: wrap;
+    }
+    footer .content-wrapper .about {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2.7rem;
+    }
+    .services .cards-wrapper .card,
+    .blogs .blogs-wrapper .blog {
+        width: 100%;
+    }
+}
